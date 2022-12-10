@@ -1,0 +1,36 @@
+{
+ "session": {
+  "name": "Hardware",
+  "uuid": "2fd0dab3-c759-4895-a456-22aee69bf74f",
+  "description": "Vitis IDE session Hardware",
+  "timestamp": "0",
+  "report_file": {
+   "scheme": "FILE",
+   "host": "",
+   "port": 0,
+   "path": "/home/y/work/kv260/2022.1/WorkSpace/add5/add2_system_hw_link/Hardware/guidance.html",
+   "query": "",
+   "fragment": "",
+   "media_type": "",
+   "encoding": "",
+   "data": ""
+  },
+  "proto_file": {
+   "scheme": "FILE",
+   "host": "",
+   "port": 0,
+   "path": "/home/y/work/kv260/2022.1/WorkSpace/add5/add2_system_hw_link/Hardware/guidance.pb",
+   "query": "",
+   "fragment": "",
+   "media_type": "",
+   "encoding": "",
+   "data": ""
+  },
+  "build_target": "",
+  "config_files": []
+ },
+ "violation_count": 0,
+ "waived_count": 0,
+ "affirmation_count": 0
+}
+

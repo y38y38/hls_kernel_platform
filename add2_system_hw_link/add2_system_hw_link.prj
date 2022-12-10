@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ASCII"?>
+<hwlink:HwLinkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hwlink="http://www.xilinx.com/acceleration/hwlink" name="add2_system_hw_link" platform="/home/y/work/kv260/2022.1/WorkSpace/kv260_vitis_platform/kv260_custom/export/kv260_custom/kv260_custom.xpfm" systemProject="add2_system" cpu="pl">
+  <configuration name="Emulation-SW" id="com.xilinx.ide.accel.config.hwlink.sw_emu.944294187">
+    <configBuildOptions xsi:type="hwlink:LinkOptions">
+      <binaryContainers name="binary_container_1">
+        <kernels name="krnl_vadd" projectName="add2_kernels">
+          <computeUnits name="krnl_vadd_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Emulation-HW" id="com.xilinx.ide.accel.config.hwlink.hw_emu.2029245931">
+    <configBuildOptions xsi:type="hwlink:LinkOptions" target="hw_emu">
+      <binaryContainers name="binary_container_1">
+        <kernels name="krnl_vadd" projectName="add2_kernels">
+          <computeUnits name="krnl_vadd_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Hardware" id="com.xilinx.ide.accel.config.hwlink.hw.869736352">
+    <configBuildOptions xsi:type="hwlink:LinkOptions" target="hw">
+      <binaryContainers name="binary_container_1">
+        <kernels name="krnl_vadd" projectName="add2_kernels">
+          <computeUnits name="krnl_vadd_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="hwlink:LinkOptions" target="hw">
+      <binaryContainers name="binary_container_1">
+        <kernels name="krnl_vadd" projectName="add2_kernels">
+          <computeUnits name="krnl_vadd_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </lastBuildOptions>
+  </configuration>
+</hwlink:HwLinkProject>

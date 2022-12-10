@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:systemproject="http://www.xilinx.com/systemproject" name="add2_system" platform="/home/y/work/kv260/2022.1/WorkSpace/kv260_vitis_platform/kv260_custom/export/kv260_custom/kv260_custom.xpfm" platformUID="xilinx:kv260_som_som240_1_connector_kv260_carrier_som240_1_connector:kv260_hardware_platform:0.0(custom)" sysConfig="kv260_custom" rootFSLocation="" linuxImage="" sysroot="/home/y/work/kv260/2022.1/WorkSpace/kv260_vitis_platform/sysroots/cortexa72-cortexa53-xilinx-linux">
+  <configuration name="Emulation-SW" id="com.xilinx.sdx.system.managedbuilder.swemu.configuration.1585162957">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="add2_system_hw_link" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-SW"/>
+      <applications name="add2_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-SW"/>
+      <applications name="add2" domainName="linux_domain" domainPrettyName="linux on psu_cortexa53" appBuildConfig="Emulation-SW"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Emulation-HW" id="com.xilinx.sdx.system.managedbuilder.hwemu.configuration.1668009067">
+    <configBuildOptions xsi:type="systemproject:SystemOptions" target="hw_emu">
+      <applications name="add2_system_hw_link" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-HW"/>
+      <applications name="add2_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-HW"/>
+      <applications name="add2" domainName="linux_domain" domainPrettyName="linux on psu_cortexa53" appBuildConfig="Emulation-HW"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Hardware" id="com.xilinx.sdx.system.managedbuilder.hw.configuration.786079757">
+    <configBuildOptions xsi:type="systemproject:SystemOptions" target="hw">
+      <applications name="add2_system_hw_link" domainName="" domainPrettyName="pl" appBuildConfig="Hardware"/>
+      <applications name="add2_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Hardware"/>
+      <applications name="add2" domainName="linux_domain" domainPrettyName="linux on psu_cortexa53" appBuildConfig="Hardware"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>
